@@ -41,28 +41,24 @@
                 <div id="hero-1"></div>
                 <div id="hero-2"></div>
                 <div id="hero-3"></div>
-
             </div>
             <video autoplay loop muted
                 src="https://videos.pexels.com/video-files/854225/854225-hd_1920_1080_30fps.mp4"></video>
-
         </div>
+
         <div id="page-2">
             <div id="moving-text">
                 <div class="con">
                     <h1> SPACE TECHNOLOGY IN THE SERVICE OF HUMANKIND</h1>
                     <div id="gola"></div>
-
                 </div>
                 <div class="con">
                     <h1> SPACE TECHNOLOGY IN THE SERVICE OF HUMANKIND</h1>
                     <div id="gola"></div>
-
                 </div>
                 <div class="con">
                     <h1> SPACE TECHNOLOGY IN THE SERVICE OF HUMANKIND</h1>
                     <div id="gola"></div>
-
                 </div>
             </div>
             <div id="page2-bottom">
@@ -77,10 +73,9 @@
                         ISRO's greatest milestones:</p>
                 </div>
             </div>
-            <div id="gooey">
-
-            </div>
+            <div id="gooey"></div>
         </div>
+
         <div id="page3">
             <div id="elem1" class="elem"
                 data-image="https://www.isro.gov.in/media_isro/image/media/Missions/PSLV/more/PSLVC25/gallery/mars4.jpg.webp">
@@ -130,153 +125,131 @@
                 alt="Display Image"
               />
             </div>
-          </div>
-            <script>
-                const buttons = document.querySelectorAll('.hover-btn');
-                const image = document.getElementById('dynamic-image');
-
-                buttons.forEach(button => {
-                    button.addEventListener('mouseenter', () => {
-                        const newImage = button.getAttribute('data-image');
-                        image.src = newImage;
-                    });
-                });
-            </script>
         </div>
+
+        <script>
+            const buttons = document.querySelectorAll('.hover-btn');
+            const image = document.getElementById('dynamic-image');
+
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', () => {
+                    const newImage = button.getAttribute('data-image');
+                    image.src = newImage;
+                });
+            });
+        </script>
+
         <div id="page4">
-                <div class="container swiper">
-                    <div class="card-wrapper swiper">
-                        <ul class="card-list swiper-wrapper">
-                            <li class="card-item swiper-slide">
-                                <a href="#" class="card-link">
-                                    <img src="pslv.jpeg" alt="card image" class="card-image">
-                                    <p class= "bridge designer"></p>
-                                    <h2 class="card-title">UPCOMING LAUNCHES</h2>
-                                    <button class="card-button
-                                    material-symbols-rounded">
-                                        arrow_forward
-                                    </button>                            
-                                </a>
-                            </li>
-                            <li class="card-item swiper-slide">
-                                <a href="#" class="card-link">
-                                    <img src="launch.jpeg" alt="card image" class="card-image">
-                                    <p class= "bridge developer"></p>
-                                    <h2 class="card-title">LAUNCH PORT</h2>
-                                    <button class="card-button
-                                    material-symbols-rounded">
-                                        arrow_forward
-                                    </button>                            
-                                </a>
-                            </li>
-                            <li class="card-item swiper-slide">
-                                <a href="#" class="card-link">
-                                    <img src="lvm.jpeg" alt="card image" class="card-image">
-                                    <p class= "bridge marketer"></p>
-                                    <h2 class="card-title">GALLERY</h2>
-                                    <button class="card-button
-                                    material-symbols-rounded">
-                                        arrow_forward
-                                    </button>                            
-                                </a>
-                            </li>
-                            <li class="card-item swiper-slide">
-                                <a href="#" class="card-link">
-                                    <img src="engine.jpeg" alt="card image" class="card-image">
-                                    <p class= "bridge gamer"></p>
-                                    <h2 class="card-title">R&D</h2>
-                                    <button class="card-button
-                                    material-symbols-rounded">
-                                        arrow_forward
-                                    </button>                            
-                                </a>
-                            </li>
-                            <li class="card-item swiper-slide">
-                                <a href="#" class="card-link">
-                                    <img src="future.jpeg" alt="card image" class="card-image">
-                                    <p class= "bridge editor"></p>
-                                    <h2 class="card-title">UPDATES</h2>
-                                    <button class="card-button
-                                    material-symbols-rounded">
-                                        arrow_forward
-                                    </button>                            
-                                </a>
-                            </li>
-                        </ul>
-                     </div>
-    
-                     
-                    <div class="swiper-pagination"></div>
-                    <!-- <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div> -->
+            <div class="container swiper">
+                <div class="card-wrapper swiper">
+                    <ul class="card-list swiper-wrapper">
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="pslv.jpeg" alt="card image" class="card-image">
+                                <h2 class="card-title">UPCOMING LAUNCHES</h2>
+                                <button class="card-button material-symbols-rounded">
+                                    arrow_forward
+                                </button>                            
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="launch.jpeg" alt="card image" class="card-image">
+                                <h2 class="card-title">LAUNCH PORT</h2>
+                                <button class="card-button material-symbols-rounded">
+                                    arrow_forward
+                                </button>                            
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="lvm.jpeg" alt="card image" class="card-image">
+                                <h2 class="card-title">GALLERY</h2>
+                                <button class="card-button material-symbols-rounded">
+                                    arrow_forward
+                                </button>                            
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="engine.jpeg" alt="card image" class="card-image">
+                                <h2 class="card-title">R&D</h2>
+                                <button class="card-button material-symbols-rounded">
+                                    arrow_forward
+                                </button>                            
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="future.jpeg" alt="card image" class="card-image">
+                                <h2 class="card-title">UPDATES</h2>
+                                <button class="card-button material-symbols-rounded">
+                                    arrow_forward
+                                </button>                            
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+                <div class="swiper-pagination"></div>
+            </div>
 
             <div id="hero-shape2"></div>
             <div id="hero-4"></div>
             <div id="hero-5"></div>
             <div id="hero-6"></div>
-
         </div>
 
         <div id="page5">
-                    <div class="star">
-            <img  src="moon.avif" alt="">
-            <div class="container5">
-                <footer class="footer">
-                    <div class="footer-container">
-                        <div class="footer-column">
-                            
-                            <ul>
-                                <li><a href="#">History</a></li>
-                                <li><a href="#">Archive</a></li>
-                                <li><a href="#">Send Us Feedback</a></li>
-                            </ul>
+            <div class="star">
+                <img src="moon.avif" alt="">
+                <div class="container5">
+                    <footer class="footer">
+                        <div class="footer-container">
+                            <div class="footer-column">
+                                <ul>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Archive</a></li>
+                                    <li><a href="#">Send Us Feedback</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <ul>
+                                    <li><a href="#">Get Help</a></li>
+                                    <li><a href="#">Labs</a></li>
+                                    <li><a href="#">RTIs</a></li>
+                                    <li><a href="#">Annual Report</a></li>
+                                    <li><a href="#">Research</a></li>
+                                    <li><a href="#">Books </a></li>
+                                    <li><a href="#">Contact Us </a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <ul>
+                                    <li><a href="#">About </a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Servicies</a></li>
+                                    <li><a href="#">DATA</a></li>
+                                    <li><a href="#">Report a Concern</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-country">
+                                <p>🌏︎India</p>
+                            </div>
                         </div>
-                        <div class="footer-column">
-                            
-                            <ul>
-                                <li><a href="#">Get Help</a></li>
-                                <li><a href="#">Labs</a></li>
-                                <li><a href="#">RTIs</a></li>
-                                <li><a href="#">Annual Report</a></li>
-                                <li><a href="#">Research</a></li>
-                                <li><a href="#">Books </a></li>
-                                <li><a href="#">Contact Us </a></li>
-                            </ul>
+                        <div class="footer-text">
+                            <p class="left-text">this project is not officially associated with ISRO or department of space DOS.</p>
+                            <p class="right-text">*still in devlopment*</p>
                         </div>
-                        <div class="footer-column">
-                            
-                            <ul>
-                                <li><a href="#">About </a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Servicies</a></li>
-                                <li><a href="#">DATA</a></li>
-                                <li><a href="#">Report a Concern</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-country">
-                            <p>🌏︎India</p>
-                        </div>
-                    </div>
-                    <div class="footer-text">
-                        <p class="left-text">this project is not officially associated with ISRO or department of space DOS.</p>
-                        <p class="right-text">*still in devlopment*</p>
-                    </div>
-                    
-                </footer>
-
+                    </footer>
+                </div>
             </div>
-
-        
-        
-
         </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="script.js"></script>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
