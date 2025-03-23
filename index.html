@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="./apple-touch-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main">
+
+        <div id="page1">
+            <nav>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/450px-Indian_Space_Research_Organisation_Logo.svg.png"
+                    alt="" width="150">
+
+                <div id="nav-part2">
+                    <h4><a href="#">rockets</a></h4>
+                    <h4><a href="#">missions</a></h4>
+                    <h4><a href="#">contact</a></h4>
+                </div>
+            </nav>
+            <div id="center">
+                <div id="left">
+                    <h3>ISRO (Indian Space Research Organisation) is India’s national space agency and the main R&D arm
+                        of the Department of Space, which is overseen by the Prime Minister. The ISRO Chairman also
+                        heads the Department of Space.</h3>
+                </div>
+                <div id="right">
+                    <h1>SPACE <br>THAT <br> INSPIRE</h1>
+                </div>
+            </div>
+            <div id="hero-shape">
+                <div id="hero-1"></div>
+                <div id="hero-2"></div>
+                <div id="hero-3"></div>
+
+            </div>
+            <video autoplay loop muted
+                src="https://videos.pexels.com/video-files/854225/854225-hd_1920_1080_30fps.mp4"></video>
+
+        </div>
+        <div id="page-2">
+            <div id="moving-text">
+                <div class="con">
+                    <h1> SPACE TECHNOLOGY IN THE SERVICE OF HUMANKIND</h1>
+                    <div id="gola"></div>
+
+                </div>
+                <div class="con">
+                    <h1> SPACE TECHNOLOGY IN THE SERVICE OF HUMANKIND</h1>
+                    <div id="gola"></div>
+
+                </div>
+                <div class="con">
+                    <h1> SPACE TECHNOLOGY IN THE SERVICE OF HUMANKIND</h1>
+                    <div id="gola"></div>
+
+                </div>
+            </div>
+            <div id="page2-bottom">
+                <h1>The workhorse of a billion indian dreams. sun, moon, mars and beyond.</h1>
+                <div id="bottom-part2">
+                    <img src="https://im.indiatimes.in/content/2017/Feb/pic22_1487326244.jpg?w=640&h=427&cc=1&webp=1&q=75"
+                        alt="">
+                    <p>The Indian Space Research Organisation (ISRO) has come a long way from launching its first rocket
+                        in 1963 to successfully landing on the Moon's south pole in 2023. With nearly 100 launch
+                        missions under its belt, ISRO continues to push the boundaries of space exploration, setting its
+                        sights on a crewed lunar mission by 2040 and an Indian space station by 2035. Here are some of
+                        ISRO's greatest milestones:</p>
+                </div>
+            </div>
+            <div id="gooey">
+
+            </div>
+        </div>
+        <div id="page3">
+            <div id="elem1" class="elem"
+                data-image="https://www.isro.gov.in/media_isro/image/media/Missions/PSLV/more/PSLVC25/gallery/mars4.jpg.webp">
+                <div class="overlay"></div>
+                <h2>mangalyaan</h2>
+            </div>
+            <div class="elem">
+                <div class="overlay"></div>
+                <h2>chandyaan missions</h2>
+            </div>
+            <div class="elem">
+                <div class="overlay"></div>
+                <h2>aditya L1</h2>
+            </div>
+            <div class="elem">
+                <div class="overlay"></div>
+                <h2>XPoSat</h2>
+            </div>
+            <div class="elem">
+                <div class="overlay"></div>
+                <h2>SPADEX mission</h2>
+            </div>
+        </div>
+
+        <div class="container1">
+            <div class="left-panel">
+              <h1 class="hover-btn"
+                  data-image="https://pbs.twimg.com/media/GGG2SiYX0AAdbkn?format=jpg&name=4096x4096">Design</h1>
+              <h1 class="hover-btn"
+                  data-image="https://pbs.twimg.com/media/GbRnUPoWYAAf-Go?format=jpg&name=large">Project</h1>
+              <h1 class="hover-btn"
+                  data-image="https://pbs.twimg.com/media/GmoE7ZnaEAElQ1W?format=jpg&name=small">Execution</h1>
+        
+              <p class="small-text">
+                As the national space agency of India, ISRO's purpose is the pursuit of all space-based
+                applications such as research, reconnaissance, and communications. It undertakes the design
+                and development of space rockets and satellites, and undertakes explores upper atmosphere
+                and deep space exploration missions. ISRO has also incubated technologies in India's private
+                space sector, boosting its growth.
+              </p>
+            </div>
+        
+            <div class="right-panel">
+              <img
+                id="dynamic-image"
+                src="https://pbs.twimg.com/media/GmtCFDCakAAlj3R?format=jpg&name=900x900"
+                alt="Display Image"
+              />
+            </div>
+          </div>
+            <script>
+                const buttons = document.querySelectorAll('.hover-btn');
+                const image = document.getElementById('dynamic-image');
+
+                buttons.forEach(button => {
+                    button.addEventListener('mouseenter', () => {
+                        const newImage = button.getAttribute('data-image');
+                        image.src = newImage;
+                    });
+                });
+            </script>
+        </div>
+        <div id="page4">
+                <div class="container swiper">
+                    <div class="card-wrapper swiper">
+                        <ul class="card-list swiper-wrapper">
+                            <li class="card-item swiper-slide">
+                                <a href="#" class="card-link">
+                                    <img src="pslv.jpeg" alt="card image" class="card-image">
+                                    <p class= "bridge designer"></p>
+                                    <h2 class="card-title">UPCOMING LAUNCHES</h2>
+                                    <button class="card-button
+                                    material-symbols-rounded">
+                                        arrow_forward
+                                    </button>                            
+                                </a>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <a href="#" class="card-link">
+                                    <img src="launch.jpeg" alt="card image" class="card-image">
+                                    <p class= "bridge developer"></p>
+                                    <h2 class="card-title">LAUNCH PORT</h2>
+                                    <button class="card-button
+                                    material-symbols-rounded">
+                                        arrow_forward
+                                    </button>                            
+                                </a>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <a href="#" class="card-link">
+                                    <img src="lvm.jpeg" alt="card image" class="card-image">
+                                    <p class= "bridge marketer"></p>
+                                    <h2 class="card-title">GALLERY</h2>
+                                    <button class="card-button
+                                    material-symbols-rounded">
+                                        arrow_forward
+                                    </button>                            
+                                </a>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <a href="#" class="card-link">
+                                    <img src="engine.jpeg" alt="card image" class="card-image">
+                                    <p class= "bridge gamer"></p>
+                                    <h2 class="card-title">R&D</h2>
+                                    <button class="card-button
+                                    material-symbols-rounded">
+                                        arrow_forward
+                                    </button>                            
+                                </a>
+                            </li>
+                            <li class="card-item swiper-slide">
+                                <a href="#" class="card-link">
+                                    <img src="future.jpeg" alt="card image" class="card-image">
+                                    <p class= "bridge editor"></p>
+                                    <h2 class="card-title">UPDATES</h2>
+                                    <button class="card-button
+                                    material-symbols-rounded">
+                                        arrow_forward
+                                    </button>                            
+                                </a>
+                            </li>
+                        </ul>
+                     </div>
+    
+                     
+                    <div class="swiper-pagination"></div>
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                </div>
+
+            <div id="hero-shape2"></div>
+            <div id="hero-4"></div>
+            <div id="hero-5"></div>
+            <div id="hero-6"></div>
+
+        </div>
+
+        <div id="page5">
+                    <div class="star">
+            <img  src="moon.avif" alt="">
+            <div class="container5">
+                <footer class="footer">
+                    <div class="footer-container">
+                        <div class="footer-column">
+                            
+                            <ul>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Archive</a></li>
+                                <li><a href="#">Send Us Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            
+                            <ul>
+                                <li><a href="#">Get Help</a></li>
+                                <li><a href="#">Labs</a></li>
+                                <li><a href="#">RTIs</a></li>
+                                <li><a href="#">Annual Report</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Books </a></li>
+                                <li><a href="#">Contact Us </a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            
+                            <ul>
+                                <li><a href="#">About </a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Servicies</a></li>
+                                <li><a href="#">DATA</a></li>
+                                <li><a href="#">Report a Concern</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-country">
+                            <p>🌏︎India</p>
+                        </div>
+                    </div>
+                    <div class="footer-text">
+                        <p class="left-text">this project is not officially associated with ISRO or department of space DOS.</p>
+                        <p class="right-text">*still in devlopment*</p>
+                    </div>
+                    
+                </footer>
+
+            </div>
+
+        
+        
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
